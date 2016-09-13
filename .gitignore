@@ -1,3 +1,4 @@
 build/*
 .existdb.json
 modules/config.xqm
+.DS_Store
