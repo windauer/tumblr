@@ -8,7 +8,7 @@ declare function tumblr:send-request(
         $http-method as xs:string, 
         $api-url as xs:string
         ) {
-    let $request := <http:request href="{$api-url}" method="{$http-method}"/>
+    let $request := <http:request href="{$api-url}" method="{$http-method}" http-version="1.1"/>
     let $response := http:send-request($request)
     return 
         (
