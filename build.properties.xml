@@ -4,7 +4,7 @@
         <name>tumblr</name>
         <url>http://history.state.gov/ns/apps/tumblr</url>
         <title>HistoryAtState Tumblr Archive</title>
-        <version>0.3</version>
+        <version>0.4</version>
     </app>
     <trigger>
         <provider-url>
